@@ -1,0 +1,36 @@
+2025-03-12 09:28:47,354 INFO User Prompt: If I have 5 bananas and lose 3, how many i  have left?
+
+2025-03-12 09:28:49,059 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-12 09:28:49,062 INFO Answer value
+ Chat Response: You started with 5 bananas, then lost 3, so to find out how many you have left, we need to subtract 3 from 5.
+
+5 - 3 = 2
+
+You have 2 bananas left.
+Creation Time: 2025-03-12T13:28:49.047481Z
+Duration: 1682162375
+
+2025-03-12 09:29:21,667 INFO User Prompt: if from those bananas, i add 10, how many i got left ?
+
+2025-03-12 09:29:23,411 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-12 09:29:23,414 INFO Answer value
+ Chat Response: You already had 2 bananas and added 10, so to find out how many you have in total, we need to add 2 + 10.
+
+2 + 10 = 12
+
+You now have 12 bananas.
+Creation Time: 2025-03-12T13:29:23.402384Z
+Duration: 1727138916
+
+2025-03-12 09:30:06,997 INFO User Prompt: my friend gives me 10 apples, how many fruits in total do i have
+
+2025-03-12 09:30:08,943 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-12 09:30:08,947 INFO Answer value
+ Chat Response: You already had 12 bananas and received 10 more, so to find out the total number of fruits you have, we need to add 12 + 10.
+
+12 + 10 = 22
+
+You now have a total of 22 fruits.
+Creation Time: 2025-03-12T13:30:08.936595Z
+Duration: 1932222959
+
