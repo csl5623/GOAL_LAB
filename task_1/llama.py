@@ -1,6 +1,6 @@
 import ollama
 import logging
-from data import questions
+from task_1.data import questions
 
 
 class AnswerResponse():
