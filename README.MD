@@ -18,3 +18,5 @@ This project demonstrates a basic **Retrieval-Augmented Generation (RAG)** syste
 
 Installation requirements and instructions to run project can be found in the RAG System folder
 
+## Google Drive with Documentation and research documents:
+- https://drive.google.com/drive/folders/1-ywfzFbyTHq93hr6mhf5cUhkv6j6h641?usp=sharing

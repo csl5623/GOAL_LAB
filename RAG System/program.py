@@ -4,7 +4,7 @@ import chromadb
 
 
 dataset = []
-client = chromadb.Client()
+client = chromadb.Client() 
 
 collection = client.create_collection(name="us-presidents-facts")
 
