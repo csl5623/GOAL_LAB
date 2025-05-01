@@ -1,0 +1,6 @@
+2025-05-01 11:40:51,548 INFO {'id': 0, 'input': ' The current president of US is  ___ ', 'output': 'Barack Obama'}
+2025-05-01 11:40:51,549 INFO {'id': 1, 'input': ' The Sixteenth President of US was  ___ ', 'output': 'Abraham Lincoln'}
+2025-05-01 11:40:51,549 INFO {'id': 2, 'input': ' The President that signed the Civil Rights Act was  ___ ', 'output': 'Lyndon B. Johnson'}
+2025-05-01 11:40:51,549 INFO {'id': 3, 'input': ' The  ___  Doctrine was established by James Monroe', 'output': 'foreign'}
+2025-05-01 11:40:51,549 INFO {'id': 4, 'input': ' Barack Obama was President number  ___  of the United States', 'output': '44'}
+2025-05-01 11:40:51,549 INFO {'id': 5, 'input': ' The second President of the United States was  ___ ', 'output': 'John Adams'}
