@@ -45,7 +45,6 @@ def generate_model_response(prompt,data):
 
 
 while(True):
-
     userInput = input("Ask a question \n")
 
     ##create an embedding for the users prompt
@@ -62,4 +61,4 @@ while(True):
     output = generate_model_response(userInput,data)
     
     for r in output:
-        print(r.message.content + "\n")
+        print(r.message.content)
