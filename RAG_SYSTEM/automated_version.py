@@ -4,6 +4,7 @@ import chromadb
 import input_data
 import os
 
+
 q = input_data.x
 
 strings = []
@@ -21,10 +22,8 @@ def parse_input():
             if i[j] == "":
                 form_string += "  ___ "
             else:
-                form_string += " "
-                form_string += i[j]
-                embedding_string += " "
-                embedding_string += i[j]
+                form_string += " "+i[j]
+                embedding_string += " "+i[j]
         strings.append(form_string)
         embedding_questions.append(embedding_string)
 
@@ -96,10 +95,9 @@ def RAG_SYSTEM_FLOW():
     
     return outputList
 
+
 def log_output():
-
     outputList = RAG_SYSTEM_FLOW()
-
     log_dir = os.path.join(os.getcwd(), "logs")
     log_fname = os.path.join(log_dir, 'RAG_output.log')
 
@@ -110,6 +108,6 @@ def log_output():
     for i in outputList.values():
             logging.info(i)
 
+
 if __name__ == "__main__":
     log_output()
-    print("Script executed directly")
